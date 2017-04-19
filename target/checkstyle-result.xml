@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.11.2">
-<file name="/Users/inoob/Documents/code snipet/inoobLib/src/main/java/com/inoobLib/package-info.java">
+<file name="/Volumes/DATA/code/codesnipet2017/inoobLib/src/main/java/com/inoobLib/Algorithm/Algorithms.java">
+</file>
+<file name="/Volumes/DATA/code/codesnipet2017/inoobLib/src/main/java/com/inoobLib/Algorithm/package-info.java">
 <error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 </file>
-<file name="/Users/inoob/Documents/code snipet/inoobLib/src/main/java/com/inoobLib/Random/IntegerRandom.java">
+<file name="/Volumes/DATA/code/codesnipet2017/inoobLib/src/main/java/com/inoobLib/package-info.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 </file>
-<file name="/Users/inoob/Documents/code snipet/inoobLib/src/main/java/com/inoobLib/Random/package-info.java">
+<file name="/Volumes/DATA/code/codesnipet2017/inoobLib/src/main/java/com/inoobLib/Random/IntegerRandom.java">
+</file>
+<file name="/Volumes/DATA/code/codesnipet2017/inoobLib/src/main/java/com/inoobLib/Random/package-info.java">
 <error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 </file>
 </checkstyle>

@@ -1,6 +1,6 @@
 package com.inoobLib.Test;
 
-import com.inoobLib.Alghoritm.Algorithms;
+import com.inoobLib.Algorithm.Algorithms;
 import com.inoobLib.Random.IntegerRandom;
 import org.junit.Test;
 import java.util.Iterator;
@@ -28,9 +28,6 @@ public class TestIntegerRandom {
 
         System.out.println("has duplicates? : " + flag);
 
-        Iterator<Integer> iterator = rnd.iterator();
-        while (iterator.hasNext()){
-            System.out.println(iterator.next().intValue());
-        }
+        rnd.forEach( r -> System.out.println(r.intValue()));
     }
 }

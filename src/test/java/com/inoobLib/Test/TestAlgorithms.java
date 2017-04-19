@@ -1,10 +1,11 @@
 package com.inoobLib.Test;
 
-import com.inoobLib.Alghoritm.Algorithms;
+import com.inoobLib.Algorithm.Algorithms;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.List;
+import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -63,7 +64,7 @@ public class TestAlgorithms {
 
     @Test
     public void testFindFactors(){
-        List<Integer> list = algorithms.findFactors(1030);
+        Set<Integer> list = algorithms.findFactors(1030);
         list.forEach( l -> System.out.println(l.intValue()) );
     }
 
@@ -94,6 +95,12 @@ public class TestAlgorithms {
         for (int i : result){
             System.out.print(i + ",");
         }
+    }
+
+    @Test
+    public void testFindSimpleDevision(){
+        Set<Integer> list = algorithms.findFactorsSqrtN(126);
+        list.forEach(l -> System.out.println(l.intValue()));
     }
 
     @Before

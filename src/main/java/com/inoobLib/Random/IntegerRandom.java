@@ -14,7 +14,7 @@ public class IntegerRandom {
     /**
      * this list keep used values.
      */
-    private Set<Integer> list = new HashSet<Integer>();
+    private Set<Integer> list = new HashSet<>();
     /**
      * random.
      */
@@ -28,12 +28,12 @@ public class IntegerRandom {
      * @return random.
      */
     public final Set<Integer> generateRandom(final int max, final int count) {
-        int temp = 0;
+        int temp;
         for (int i = 0; i < count; i++) {
             temp = this.random.nextInt(max);
-            if(!this.list.contains(temp)) {
+            if (!this.list.contains(temp)) {
                 this.list.add(temp);
-            }else {
+            } else {
                 i--;
             }
         }
