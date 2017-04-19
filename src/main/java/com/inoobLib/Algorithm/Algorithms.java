@@ -3,10 +3,12 @@ package com.inoobLib.Algorithm;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.Random;
-import java.util.stream.Stream;
 
 import static java.lang.Math.sqrt;
 
+/**
+ * The class implement some popular algorithms.
+ */
 public class Algorithms {
     /**
      * constructor.
@@ -22,7 +24,7 @@ public class Algorithms {
     public final int findLargestElement(final int[] array) {
         int large = array[0];
 
-        for (int i = 0; i < array.length; i++) {
+        for ( int i : array) {
             if (array[i] > large) {
                 large = array[i];
             }
@@ -305,5 +307,17 @@ public class Algorithms {
             arr[minimumIndex] = temp;
         }
         return arr;
+    }
+
+    /**
+     * Compare string and reverse string.
+     * if they equal so it means it is polynomial.
+     *
+     * @param string string.
+     * @return boolean flag.
+     */
+    public final boolean checkPolynomial(final String string) {
+        StringBuilder reverse = new StringBuilder(string).reverse();
+        return string.equals(reverse.toString());
     }
 }

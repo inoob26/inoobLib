@@ -4,7 +4,6 @@ import com.inoobLib.Algorithm.Algorithms;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.List;
 import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
@@ -101,6 +100,11 @@ public class TestAlgorithms {
     public void testFindSimpleDevision(){
         Set<Integer> list = algorithms.findFactorsSqrtN(126);
         list.forEach(l -> System.out.println(l.intValue()));
+    }
+
+    @Test
+    public void testPolynomial(){
+        System.out.println(algorithms.checkPolynomial("abba"));
     }
 
     @Before
